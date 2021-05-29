@@ -1,4 +1,4 @@
-package com.datastructures.algorithms;
+package com.datastructures;
 
 /**
  * @author Harshal Patil
