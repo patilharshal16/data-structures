@@ -1,4 +1,4 @@
-# data structures and algorithms
+# Data Structures and Algorithms
 Computer science data structures and algorithms implementation from scratch
 
 ## Stack (Last In First Out)
