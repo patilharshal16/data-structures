@@ -53,7 +53,7 @@ public class Stack {
     }
 
     /**
-     * Increased size of array depending on the inputs
+     * Increased size of array depending on the input
      */
     private void resizeArray() {
         if(top == elements.length-1){
