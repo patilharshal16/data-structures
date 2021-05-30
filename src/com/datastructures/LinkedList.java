@@ -49,6 +49,26 @@ public class LinkedList {
     }
 
     /**
+     * Method to get specific element from the given index
+     * @param index
+     * @return
+     */
+    public Object get(int index){
+        //TODO implementation to be added
+        return null;
+    }
+
+    /**
+     * Method to remove the element at the specified position in the list.
+     * @param index
+     * @return
+     */
+    public boolean remove(int index) {
+        //TODO implementation to be added
+        return false;
+    }
+
+    /**
      * Increment LinkedList size on every add
      */
     public static void incrementSize() {
