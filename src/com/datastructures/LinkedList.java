@@ -40,6 +40,15 @@ public class LinkedList {
     }
 
     /**
+     * Method to add data to the specific index of list
+     * @param data
+     * @param index
+     */
+    public void add(Object data, int index) {
+        //TODO implementation to be added
+    }
+
+    /**
      * Increment LinkedList size on every add
      */
     public static void incrementSize() {
