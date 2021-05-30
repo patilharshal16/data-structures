@@ -39,24 +39,6 @@ public class LinkedList {
         incrementSize();
     }
 
-//    public void add(Object data, int index) {
-//        Node tempNode = new Node(data);
-//        Node current = this.head;
-//
-//        if(index == 0){
-//            tempNode.setNext(current);
-//            current = tempNode;
-//        } else {
-//
-//            for(int i=0; i < index && null != current.getNext(); i++) {
-//                tempNode.setNext(current.getNext());
-//                current.setNext(null);
-//            }
-//            current.setNext(tempNode);
-//        }
-//        incrementSize();
-//    }
-
     /**
      * Increment LinkedList size on every add
      */
