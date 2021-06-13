@@ -45,6 +45,19 @@ public class Stack {
     }
 
     /**
+     * Method to retrieve the element present at the top of the Stack
+     * @return element present at the top
+     * @throws IllegalAccessException
+     */
+    public Object peek() throws IllegalAccessException {
+        if(top == 0) {
+            System.out.println("Stack is empty");
+            throw new IllegalAccessException();
+        }
+        return elements[top];
+    }
+
+    /**
      * Initialise array with default value
      */
     public void clear() {
